@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import StockContainer from "./StockContainer";
 import PortfolioContainer from "./PortfolioContainer";
 import SearchBar from "./SearchBar";
@@ -32,7 +32,7 @@ function MainContainer() {
           <StockContainer handleClick={handleClick} stocks={stocks} />
         </div>
         <div className="col-4">
-          <PortfolioContainer stocks={clickedStocks} remove={removeStock}/>
+          <PortfolioContainer stocks={clickedStocks} remove={removeStock} />
         </div>
       </div>
     </div>
